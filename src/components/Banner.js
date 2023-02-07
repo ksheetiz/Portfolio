@@ -61,7 +61,7 @@ export const Banner = () => {
                   <p>I'm passionate about coding and solving problems, currently pursuing my bachelor's degree from Graphic Era deemed university(2019-2023). 
                             I am a Quick learner & quickly adapt new technology.
                             I love to create a solutions for real world problems.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <button onClick={() => window. open('https://www.linkedin.com/in/ksheetiz-agrahari-8719b1145/', '_blank')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>
