@@ -4,8 +4,6 @@ import meter3 from "../assets/img/meter3.png";
 import meter4 from "../assets/img/meter4.png";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Skills = () => {
@@ -39,19 +37,19 @@ export const Skills = () => {
                         <p>Here are some of my Skills which I learnt and kept honing day in day out so <br/> Keep a Lookout as  this will keep growing as I am on <br/> my way from Padawan to become Jedi Master one day !</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="skill" />
                                 <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="skill" />
                                 <h5>Blockchain Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt="Image" />
+                                <img src={meter3} alt="skill" />
                                 <h5>Competitive Programming</h5>
                             </div>
                             <div className="item">
-                                <img src={meter4} alt="Image" />
+                                <img src={meter4} alt="skill" />
                                 <h5>Software Enginnering</h5>
                             </div>
                         </Carousel>
@@ -59,7 +57,7 @@ export const Skills = () => {
                 </div>
             </div>
         </div>
-        <img className="background-image-left" src={colorSharp} alt="Image" />
+        <img className="background-image-left" src={colorSharp} alt="background" />
     </section>
   )
 }
