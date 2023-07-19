@@ -5,6 +5,7 @@ import projImg2 from "../assets/img/Jotpad.jpg";
 import projImg3 from "../assets/img/Newsapp.jpg";
 import projImg4 from "../assets/img/SatelliteImage.jpg";
 import projImg5 from "../assets/img/projImg5.png";
+import projImg6 from "../assets/img/projImg6.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -16,9 +17,15 @@ export const Projects = () => {
 
   const [CurrTab, setCurrTab] = useState("Projects");
   const projects = [
+
+    {
+      title: "AirBnb Clone",
+      description: "Built a high-performance Ecommerce website with NEXT.JS and integrated multiple APIs.",
+      imgUrl: projImg6,
+    },
     {
       title: "Hashcode Ecommerce",
-      description: "Built a high-performance Ecommerce website with NEXT.JS and integrated multiple APIs.",
+      description: "Built a high-performance website similar to Airbnb with NEXT.JS and integrated multiple APIs.",
       imgUrl: projImg5,
     },
     {
